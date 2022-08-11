@@ -1,3 +1,64 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Mulish', sans-serif; */
+
+#logo{
+    width: 120px;
+    height: 90px;
+    padding-left: 30px;
+}
+
+.navbar{
+    padding-top: 20px;;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.nav-link{
+color: black!important;
+font-size: 19px;
+margin: 8px;
+border: none;
+    outline: none;
+}
+
+ .nav-link:hover{
+    color: #168EDE !important;
+    text-decoration: none;
+   }
+
+   #navbarDropdown{
+    border: 0px;
+   }
+   .dropdown-menu{
+    border: 0px;
+   }
+   .dropdown-divider{
+    border: 0.5px solid black ;
+   }
+
+   .navbar-toggler{
+    background-color:#168EDE;
+   
+   }
+
+
+  .a:hover{
+    color: #168EDE !important;
+    text-decoration: none;
+   }
+   button:focus {
+    border: none;
+    outline: none;
+}
+
+   #donateVolunteer{
+    color:#168EDE !important;
+   }
+   hr{
+    border: 1px solid #168EDE ;
+   }
+
+    footer { 
+        display: block;
+      }
+   
