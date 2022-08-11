@@ -1,14 +1,15 @@
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Inter', sans-serif; */
-/* font-family: 'Mulish', sans-serif; */
+/* Hero font-family: 'Roboto', sans-serif;  */
+ /* Heading font-family: 'Inter', sans-serif;  */
+/* Body font-family: 'Mulish', sans-serif;  */
 h6{
     color:#168EDE;
     font-size: 28px;
-    
+    font-family: 'Inter', sans-serif; 
+    font-style: bold;
 }
 p{
     color:black;
-    
+    font-family: 'Mulish', sans-serif; 
 }
 #logo{
     width: 120px;
@@ -20,6 +21,7 @@ p{
     padding-top: 20px;;
     padding-left: 20px;
     padding-right: 50px;
+    font-family: 'Mulish', sans-serif; 
 }
 .nav-link{
 color: black!important;
@@ -37,7 +39,14 @@ border: none;
    .dropdown-item:hover{
     color: #168EDE;
     background-color: white;
+    
    }
+
+   .dropdown-item{
+    font-family: 'Mulish', sans-serif; 
+
+   }
+   
 
    #navbarDropdown{
     border: 0px;
