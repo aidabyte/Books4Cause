@@ -15,7 +15,7 @@ p{
     height: 90px;
     padding-left: 30px;
 }
-
+/* Navbar */
 .navbar{
     padding-top: 20px;;
     padding-left: 20px;
@@ -34,12 +34,19 @@ border: none;
     text-decoration: none;
    }
 
+   .dropdown-item:hover{
+    color: #168EDE;
+    background-color: white;
+   }
+
    #navbarDropdown{
     border: 0px;
    }
+
    .dropdown-menu{
     border: 0px;
    }
+
    .dropdown-divider{
     border: 0.5px solid black ;
    }
@@ -54,14 +61,13 @@ border: none;
     color: #168EDE !important;
     text-decoration: none;
    }
-   button:focus {
-    border: none;
-    outline: none;
-}
 
    #donateVolunteer{
     color:#168EDE !important;
    }
+
+   /* NavBar Ends */
+
    hr{
     border: 1px solid #168EDE ;
    }
@@ -70,7 +76,13 @@ border: none;
         height:50px;
         width: 50px;
         margin-bottom: 40px;
+
     }
+    .socialContainer{
+        margin-left: 180px;
+
+    }
+    
 
     footer { 
         display: block;
