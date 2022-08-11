@@ -1,7 +1,15 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Mulish', sans-serif; */
-
+h6{
+    color:#168EDE;
+    font-size: 28px;
+    
+}
+p{
+    color:black;
+    
+}
 #logo{
     width: 120px;
     height: 90px;
@@ -58,7 +66,17 @@ border: none;
     border: 1px solid #168EDE ;
    }
 
+    img{
+        height:50px;
+        width: 50px;
+        margin-bottom: 40px;
+    }
+
     footer { 
         display: block;
       }
+
+  
+
+   
    
